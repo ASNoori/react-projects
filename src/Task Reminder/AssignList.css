@@ -1,0 +1,27 @@
+.container{
+    width:400px;
+    height:80%;
+    background-color: navy;
+    border-radius: 10px;
+    margin:30px auto;
+    padding:10px 30px;
+}
+
+.theme{
+    color:white;
+}
+h3{
+    color:white;
+    text-align: center;
+}
+.btn{
+   color:navy;
+   background-color: white;
+   border:none;
+   width:80%;
+   padding:10px;
+   font-weight:bold;
+   bottom:20%;
+   border-radius: 5px;
+   margin: 10px 40px;
+}

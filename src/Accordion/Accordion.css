@@ -1,0 +1,52 @@
+/* Accordion container */
+.accordion-container {
+    width: 70vw;
+    background-color: whitesmoke;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  
+  /* Accordion question */
+  .Question {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+  
+  /* Accordion question header */
+  .Question h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Accordion question toggle button */
+  .Question button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Accordion question toggle button icon */
+  .Question button svg {
+    width: 20px;
+    height: 20px;
+    fill:currentColor;
+  }
+  
+  
+  .align-content{
+   margin:auto;
+   width:80%;
+   
+  }
+  .hcolor{
+    color:black;
+    text-align: center;
+  }

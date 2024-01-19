@@ -1,0 +1,45 @@
+.tours-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .tour-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around; 
+  }
+.load{
+    color:black;
+    text-align:center;
+}
+
+img{
+    width:400px;
+    height:300px;
+}
+.align{
+    width:400px;
+    display:flex;
+    justify-content: space-between;
+}
+.single-tour{
+    width:400px;
+    margin:auto;
+}
+.text-align{
+    text-align:center;
+}
+.btn{
+    background-color: navy !important;
+    color:white !important;
+    width:120px !important;
+    display: block!important;
+    margin:10px auto !important;
+}
+
+.readmore{
+    background-color: transparent;
+    color:blue;
+    border:none;
+}

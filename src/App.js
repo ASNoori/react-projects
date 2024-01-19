@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Accordion from "./Accordion/Accordion";
+import Cart from "./Cart/Cart";
+import { CartProvider } from "./Cart/CartContext";
+import GroceryList from "./Grocery Bud/GroceryList";
+import Links from "./Links";
+import Nav from "./NavBar/Nav";
+import Navbarpractice from "./Navbarpractice";
+import TourPackages from "./Our Tour Packages/TourPackages";
+import OurReviews from "./Reviews/OurReviews";
+import SidebarMain from "./Sidebar/SidebarMain";
+import Slider from "./Slider/Slider";
+import Taskdata from "./Task Reminder/Taskdata";
+import {Routes,Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Links/>
+      {/* <CartProvider> */}
+       <Routes>
+       <Route path='/task' element={<Taskdata/>}/>
+      <Route path='/tours' element={<TourPackages/>}/>
+      <Route path='/reviews' element={<OurReviews/>}/>
+      <Route path='/accordion' element={<Accordion/>}/>
+      <Route path='/slider' element={<Slider/>}/>
+      <Route path='/grocery' element={<GroceryList/>}/>
+      <Route path='/nav' element={<Nav/>}/>
+      <Route path='/navbar' element={<Navbarpractice/>}/>
+      <Route path='/sidebar' element={<SidebarMain/>}/>
+      <Route path='/cart' element={<Cart/>}/>
+    </Routes>
+    {/* </CartProvider>  */}
+    </>
   );
 }
 
